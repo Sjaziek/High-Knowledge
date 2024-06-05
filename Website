@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>High Knowledge</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            margin: 0;
+            padding: 1em;
+            background-color: #333;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .language-selector {
+            margin: 1em 0;
+            text-align: center;
+        }
+        section {
+            padding: 2em;
+            background-color: white;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+    <script>
+        function changeLanguage(lang) {
+            const translations = {
+                "en": {
+                    "title": "High Knowledge",
+                    "welcome": "Welcome to High Knowledge",
+                    "origin": "How the product came about",
+                    "homeText1": "I have been smoking weed for years and always looked for those first experiences of smoking weed. That was always the best and most beautiful time of smoking weed. As I smoked longer, that effect got less and less and I smoked just to smoke, not to experience that feeling.",
+                    "homeText2": "I stopped for a few months and grabbed a joint again, this was the best experience I have ever had. I got to know myself all over again and entered an inner state I had never known. I answered the questions I had for a long time and started to see things I would never normally think about. This was such a crazy and fun experience that I immediately longed for it again. Next time I aimed for the same feeling, but it was much less.",
+                    "homeText3": "After a while of experimenting, I figured out the right pattern. I tested this with friends and they didn't know what hit them and have been using it ever since. Now it is time to share this with the world.",
+                    "products": "Our Products",
+                    "productsText": "See below our available products:",
+                    "product1": "Product 1: Description of product 1",
+                    "product2": "Product 2: Description of product 2",
+                    "product3": "Product 3: Description of product 3",
+                    "contact": "Contact Us",
+                    "contactText": "Do you have any questions? Please contact us via:",
+                    "email": "Email: info@highknowledge.com",
+                    "phone": "Phone: +31 123 456 789",
+                    "address": "Address: Hoofdstraat 123, 1234 AB Stad",
+                },
+                "nl": {
+                    "title": "High Knowledge",
+                    "welcome": "Welkom bij High Knowledge",
+                    "origin": "Hoe het product is ontstaan",
+                    "homeText1": "Ik heb zelf jarenlang
